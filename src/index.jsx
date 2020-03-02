@@ -1,21 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { config } from './components/chart_1.jsx';
+import OverallChina from './charts/overall_china.jsx';
 
-class Test extends React.Component {
-  componentDidMount() {
-    config();
-  }
-
+class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div>Hello Work</div>
-        <div id='c1'></div>
+        <OverallChina />
       </React.Fragment>
     )
   }
 }
 
-ReactDOM.render(<Test />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
