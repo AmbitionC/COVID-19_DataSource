@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@antv/g2": "^3.5.12",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "file-saver": "^2.0.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
